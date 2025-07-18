@@ -14,30 +14,9 @@ fi
 
 echo "[+] Installing required XFCE4 panel plugins and tools..."
 
-sudo apt update
-sudo apt install -y \
-    xfce4-whiskermenu-plugin \
-    xfce4-appmenu-plugin \
-    xfce4-notifyd \
-    xfce4-pulseaudio-plugin \
-    xfce4-indicator-plugin \
-    xfce4-systemload-plugin \
-    xfce4-datetime-plugin \
-    xfce4-places-plugin \
-    xfce4-sensors-plugin \
-    xfce4-taskmanager \
-    xfce4-weather-plugin \
-    xfce4-netload-plugin \
-    xfce4-cpugraph-plugin \
-    xfce4-timer-plugin \
-    xfce4-clipman-plugin \
-    xfce4-mailwatch-plugin \
-    xfce4-dockbarx-plugin \
-    xfce4-panel-profiles \
-    neofetch \
-    unzip \
-    curl \
-    fonts-firacode
+pkg update && pkg upgrade -y
+pkg install -y x11-repo
+pkg install -y termux-x11-nightly xfce4 neofetch unzip curl
 
 echo "[+] Creating symbolic links for dotfiles..."
 
