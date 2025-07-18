@@ -1,0 +1,440 @@
+/* XFCE4 Panel Theme - Optimized for 2290x1080 displays */
+
+.xfce4-panel {
+	border: none;
+	background-color: transparent;
+}
+
+.xfce4-panel button,
+.genmon_plugin {
+	border-radius: 8px;
+	margin: 8px;
+	padding: 2px 8px;
+	box-shadow: none;
+	border: none;
+	background-color: transparent;
+	color: rgba(192, 202, 245, 0.7);
+	transition: all 0.2s ease;
+}
+
+.xfce4-panel button:hover {
+	background-color: rgba(42, 43, 54, 0.2);
+	color: rgba(192, 202, 245, 0.9);
+	transform: scale(1.05);
+}
+
+#separator-5 {
+	color: rgba(42, 43, 54, 0.6);
+}
+
+#docklike-plugin .group {
+	background-color: transparent;
+	box-shadow: none;
+	margin: 0px;
+	border-radius: 0px;
+	padding: 0px 10px;
+}
+
+#docklike-plugin .group button {
+	background-color: transparent;
+	border-radius: 12px;
+	margin: 6px 3px;
+	padding: 4px;
+	transition: all 0.2s ease;
+}
+
+#docklike-plugin .group button:hover {
+	background-color: rgba(122, 162, 247, 0.2);
+	transform: translateY(-2px);
+}
+
+#clock-button {
+	background-color: transparent;
+	color: rgba(192, 202, 245, 0.8);
+	box-shadow: none;
+	font-size: 14px;
+	padding: 4px 12px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	-webkit-text-stroke: 1px rgba(42, 43, 54, 0.8);
+}
+
+#clock-button:hover {
+	background-color: rgba(122, 162, 247, 0.1);
+}
+
+/* Launcher buttons - completely transparent */
+#launcher-20 button {
+	background-color: rgba(158, 206, 106, 0.6);
+	border-radius: 999px;
+	margin: 8px;
+	padding: 4px 6px;
+	box-shadow: none;
+	backdrop-filter: blur(8px);
+	border: 1px solid rgba(158, 206, 106, 0.3);
+	transition: all 0.2s ease;
+}
+
+#launcher-20 button:hover {
+	background-color: rgba(158, 206, 106, 0.8);
+	transform: scale(1.1);
+	box-shadow: 0 4px 12px rgba(158, 206, 106, 0.3);
+}
+
+/* Action buttons (launcher-27) - completely transparent */
+#launcher-27 button {
+	background-color: transparent !important;
+	border-radius: 0px;
+	margin: 4px;
+	padding: 2px;
+	box-shadow: none !important;
+	border: none !important;
+	transition: all 0.2s ease;
+}
+
+#launcher-27 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+}
+
+#launcher-27 button:active {
+	background-color: transparent !important;
+}
+
+/* Tasklist - optimized for wide screens */
+.xfce4-panel.background .tasklist button {
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	max-width: 180px;
+	min-width: 120px;
+	background-color: transparent;
+	border-radius: 6px;
+	margin: 4px 2px;
+	transition: all 0.2s ease;
+	color: rgba(192, 202, 245, 0.8);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.xfce4-panel.background .tasklist button:hover {
+	background-color: rgba(42, 43, 54, 0.3);
+	transform: translateY(-1px);
+}
+
+.xfce4-panel.background .tasklist button:active {
+	background-color: rgba(122, 162, 247, 0.3);
+}
+
+/* Whisker menu button - transparent glass effect */
+#whiskermenu-button {
+	background-color: rgba(122, 162, 247, 0.6);
+	border-radius: 999px;
+	margin: 8px;
+	padding: 4px 6px;
+	box-shadow: none;
+	backdrop-filter: blur(8px);
+	border: 1px solid rgba(122, 162, 247, 0.3);
+	transition: all 0.2s ease;
+}
+
+#whiskermenu-button:hover {
+	background-color: rgba(122, 162, 247, 0.8);
+	transform: scale(1.1);
+	box-shadow: 0 4px 12px rgba(122, 162, 247, 0.3);
+}
+
+/* Whisker menu window */
+#whiskermenu-window {
+	background-color: rgba(26, 27, 38, 0.9);
+	backdrop-filter: blur(15px);
+	border-radius: 12px;
+	border: 1px solid rgba(122, 162, 247, 0.2);
+}
+
+#whiskermenu-window treeview {
+	padding: 8px 0px 8px 12px;
+	background-color: transparent;
+}
+
+#whiskermenu-window iconview {
+	padding: 6px 6px;
+	border-radius: 6px;
+	background-color: transparent;
+}
+
+window#whiskermenu-window>frame>border {
+	border: none;
+	margin: 0px;
+	background-color: transparent;
+}
+
+window#whiskermenu-window scrolledwindow {
+	border: none;
+	background-color: transparent;
+}
+
+/* Pager - optimized for wide screens */
+#pager-13 grid {
+	margin: 8px;
+	border-radius: 18px;
+	background-color: transparent;
+	padding: 4px;
+}
+
+#pager-13 button {
+	padding: 0px;
+	margin: 6px 4px;
+	background-color: transparent !important;
+	font-size: 0px;
+	border-radius: 12px;
+	box-shadow: none !important;
+	border: 2px solid rgba(122, 162, 247, 0.5) !important;
+	min-width: 32px;
+	min-height: 20px;
+	transition: all 0.2s ease;
+}
+
+#pager-13 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+	border: 2px solid rgba(122, 162, 247, 0.8) !important;
+}
+
+#pager-13 button:checked {
+	background-color: transparent !important;
+	border: 2px solid rgba(158, 206, 106, 0.8) !important;
+}
+
+/* Pager-4 workspace buttons - outline only */
+#pager-4 grid {
+	margin: 4px;
+	border-radius: 0px;
+	background-color: transparent;
+	padding: 0px;
+}
+
+#pager-4 button {
+	padding: 2px 6px;
+	margin: 2px 1px;
+	background-color: transparent !important;
+	font-size: 12px !important;
+	border-radius: 4px;
+	box-shadow: none !important;
+	border: 1px solid rgba(192, 202, 245, 0.4) !important;
+	min-width: 24px;
+	min-height: 18px;
+	color: rgba(192, 202, 245, 0.8) !important;
+	transition: all 0.2s ease;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#pager-4 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.02);
+	color: rgba(192, 202, 245, 1) !important;
+	border: 1px solid rgba(122, 162, 247, 0.6) !important;
+}
+
+#pager-4 button:checked {
+	background-color: transparent !important;
+	color: rgba(158, 206, 106, 1) !important;
+	font-weight: bold;
+	border: 1px solid rgba(158, 206, 106, 0.8) !important;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* System tray icons - transparent */
+.systray button {
+	background-color: transparent;
+	border-radius: 8px;
+	margin: 4px;
+	padding: 4px;
+	transition: all 0.2s ease;
+}
+
+.systray button:hover {
+	background-color: rgba(122, 162, 247, 0.2);
+}
+
+/* Volume and other plugins */
+.xfce4-panel plugin button {
+	background-color: transparent;
+	border-radius: 8px;
+	margin: 4px;
+	padding: 4px 8px;
+	transition: all 0.2s ease;
+}
+
+.xfce4-panel plugin button:hover {
+	background-color: rgba(42, 43, 54, 0.3);
+}
+
+/* Thunar file manager spacing */
+* {
+	-ThunarAbstractIconView-row-spacing: 12px;
+	-ThunarAbstractIconView-column-spacing: 12px;
+}
+
+/* Context menus */
+menu,
+.context-menu {
+	border-radius: 12px;
+	background-color: rgba(26, 27, 38, 0.9);
+	backdrop-filter: blur(15px);
+	border: 1px solid rgba(122, 162, 247, 0.2);
+}
+
+/* Terminal padding */
+VteTerminal, vte-terminal {
+	padding: 24px;
+}
+
+/* Notifications - transparent glass effect */
+#XfceNotifyWindow {
+	border: 0px;
+	border-radius: 0px;
+	background-color: rgba(26, 27, 38, 0.85);
+	backdrop-filter: blur(20px);
+}
+
+#XfceNotifyWindow progressbar {
+	border-radius: 8px;
+}
+
+#XfceNotifyWindow progressbar progress,
+#XfceNotifyWindow progressbar trough {
+	min-height: 6px;
+}
+
+#XfceNotifyWindow image {
+	-gtk-icon-transform: scale(0.6);
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 8px;
+}
+
+/* Logout dialog */
+.xfsm-logout-dialog {
+	border: 2px solid rgba(26, 27, 38, 0.8);
+	background-color: rgba(26, 27, 38, 0.9);
+	backdrop-filter: blur(15px);
+	border-radius: 12px;
+}
+
+.xfsm-logout-dialog * {
+	margin: 4px;
+}
+
+/* Wide screen optimizations */
+@media screen and (min-width: 2200px) {
+	.xfce4-panel button,
+	.genmon_plugin {
+		margin: 6px 4px;
+		padding: 3px 10px;
+		font-size: 13px;
+	}
+	
+	#whiskermenu-button,
+	#launcher-20 button {
+		margin: 6px;
+		padding: 6px 8px;
+	}
+	
+	.xfce4-panel.background .tasklist button {
+		max-width: 200px;
+		min-width: 140px;
+		font-size: 13px;
+	}
+	
+	#pager-13 button {
+		min-width: 40px;
+		min-height: 24px;
+		margin: 6px 5px;
+	}
+	
+	#pager-4 button {
+		min-width: 28px;
+		min-height: 20px;
+		margin: 2px 1px;
+		padding: 2px 6px;
+	}
+}
+
+/* Panel 2 applications - completely transparent, proper icon display */
+#thunar-tpa-6 button {
+	background-color: transparent !important;
+	border-radius: 0px;
+	margin: 2px;
+	padding: 4px;
+	box-shadow: none !important;
+	border: none !important;
+	transition: all 0.2s ease;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+#thunar-tpa-6 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+}
+
+#applicationsmenu-11 button {
+	background-color: transparent !important;
+	border-radius: 0px;
+	margin: 2px;
+	padding: 4px;
+	box-shadow: none !important;
+	border: none !important;
+	transition: all 0.2s ease;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+#applicationsmenu-11 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+}
+
+#showdesktop-10 button {
+	background-color: transparent !important;
+	border-radius: 0px;
+	margin: 2px;
+	padding: 4px;
+	box-shadow: none !important;
+	border: none !important;
+	transition: all 0.2s ease;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+#showdesktop-10 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+}
+
+#launcher-13 button {
+	background-color: transparent !important;
+	border-radius: 0px;
+	margin: 2px;
+	padding: 4px;
+	box-shadow: none !important;
+	border: none !important;
+	transition: all 0.2s ease;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+#launcher-13 button:hover {
+	background-color: transparent !important;
+	transform: scale(1.05);
+}
+
+/* Panel height adjustment for wide screens */
+.xfce4-panel {
+	min-height: 44px;
+}
+
+/* Smooth animations for all interactive elements */
+* {
+	transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
